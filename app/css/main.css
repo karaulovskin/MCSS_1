@@ -1,0 +1,101 @@
+body {
+	font: 1em/1.6em Roboto, Arial, Tahoma sans-serif;
+	color: #353535;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.blackout {
+	background: rgba(40, 76, 88, 0.498039);
+}
+
+.button {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.button_big {
+	padding: 40px 0;
+}
+
+.link {
+	color: #fff;
+	font-size: 18px;
+	line-height: 1em;
+	background: #DC220D;
+	padding: 10px 20px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #000;
+	-webkit-transition: all .5s; /* время при наведении */
+	-o-transition: all .5s; /* время при наведении */
+	transition: all .5s; /* время при наведении */
+}
+
+.link:hover {
+	background: #C11E0C;
+}
+
+.link:active {
+	box-shadow: 0 0 11px #9E1101 inset;
+}
+
+.link_big {
+	font-size: 28px;
+	padding: 15px 25px;
+}
+
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+
+.head {
+	background: url(../img/head_bg.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.head__h1 {
+	padding-top: 200px;
+	font-size: 36px;
+}
+
+.head__desc {
+	padding: 0;
+	margin: 10px 0 0 ;
+}
+
+.head__discount {
+	padding: 0;
+	margin: 10px;
+	font-size: 12px;
+}
+
+.head__yandex {
+	padding: 0 0 200px;
+	margin: 0;
+	font-size: 24px;
+}
