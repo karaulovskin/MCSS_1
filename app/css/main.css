@@ -22,8 +22,17 @@ h1, h2, h3, h4 {
 	margin: 0 auto;
 }
 
+.container__min {
+	max-width: 730px;
+	margin: 0 auto;
+}
+
 .blackout {
 	background: rgba(40, 76, 88, 0.498039);
+}
+
+.red {
+	color: red;
 }
 
 .button {
@@ -98,4 +107,81 @@ h1, h2, h3, h4 {
 	padding: 0 0 200px;
 	margin: 0;
 	font-size: 24px;
+}
+
+.direct, .polza, .rezult, .time {
+	padding: 40px 0;
+	background: #fff;
+	text-align: center;
+}
+
+.direct__h2, .polza__h3, .rezult__h3 {
+	font-size: 32px;
+}
+
+.direct__desc {
+	font-size: 18px;
+}
+
+.polza__desc {
+	margin: 0 0 60px;
+}
+
+.polza__block, .rezult__block {
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+
+.polza__block_m5, .rezult__block_m5 {
+	margin: 0 5%;
+}
+
+.polza__img, .rezult__img {
+	float: left;
+}
+
+.polza__h4, .rezult__h4 {
+	font-size: 19px;
+	text-align: left;
+	margin: 0 0 0 74px;
+}
+
+.polza__p, .rezult__p {
+	margin: 10px 0 0 74px;
+}
+
+.rezult__h3 {
+	margin: 0 0 60px;
+}
+
+.time {
+	text-align: left;
+}
+
+.time__img {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.time__h4 {
+	font-size: 24px;
+	text-align: left;
+}
+
+.time__p {
+	font-size: 19px;
+	margin: 0;
+}
+
+.time__count {
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+
+.bold {
+font-size: 18px;
+color: #000;
+text-transform: uppercase;
 }
