@@ -17,6 +17,7 @@ h1, h2, h3, h4 {
 	font-weight: normal;
 	text-align: center;
 	margin: 0;
+	line-height: 1.1em /* увеличиваем межстрочный отступ */
 }
 
 .container {
@@ -290,4 +291,100 @@ text-transform: uppercase;
 .foot__link {
 	color: rgb(55, 103, 120);
 	text-decoration: underline;
+}
+
+.remodal {
+	text-align: left;
+}
+
+.modal__h3 {
+	border-bottom: 1px solid #ccc;
+	font-size: 27px;
+	padding-bottom: 10px;
+	margin: 0 0 20px;
+}
+
+.modal__p {
+	text-align: center;
+}
+
+.modal__form {
+	width: 70%;
+	margin: 40px auto;
+}
+
+.modal__input {
+	width: 100%;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	padding: 10px 0;
+	text-indent: 20px;
+	color: #555;
+	border-radius: 3px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.modal__input:focus {
+	border: 1px solid #
+}
+
+.modal__input_sub {
+	border: 1px solid #770000;
+	background: #a00000;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.modal__input_sub:hover {
+	border: 1px solid #770660;
+	background: #a00000;
+}
+
+/* ----- Медиа -----  */
+
+@media screen and (max-width: 1160px){
+  .container {
+  	margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .polza__block, .rezult__block, .rew__block,
+  .rew__desc, .more__left, .more__right {
+		width: 100%;
+		margin: 0 0 40px;
+  }
+  .more__h4, .buuton_left {
+		text-align: center;
+  }
+  .aboutme__img {
+  	float: none;
+  	margin: 0 auto 40px;
+  	display: block;
+  }
+  .modal__form {
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 480px){
+  .container {
+  	margin: 0 20px;
+  }
+  .link_big {
+  	font-size: 22px;
+  }
+  .head__h1 {
+  	font-size: 30px;
+		padding-top: 40px;
+  }
+  .head__yandex {
+  	padding-bottom: 40px;
+  }
+  .rew__foot, .rew__text {
+  	width: 100%;
+  }
 }
